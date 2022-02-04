@@ -5,6 +5,8 @@
 
 *{
   font-family: 'RobotoMono', 'monospace';
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 body{
@@ -12,9 +14,13 @@ body{
   height: 100vh;
   justify-content: center;
   align-items: center;
-  text-align: center;
 
   color: #fff;
   background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));
 }
 
+.principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
